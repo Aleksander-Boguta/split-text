@@ -1,4 +1,4 @@
-Split-Text
+# Split-Text
 
 Split-Text to narzędzie do podziału dużych plików tekstowych (.txt lub .md) na mniejsze fragmenty (chunk). Powstał na potrzeby dokładnego przetwarzania dużych plików tekstowych przez ChatGPT
 
