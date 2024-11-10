@@ -1,27 +1,27 @@
 # Split-Text
 
 Split-Text to narzędzie do podziału dużych plików tekstowych (.txt lub .md) na mniejsze fragmenty (chunk). Powstał na potrzeby dokładnego przetwarzania dużych plików tekstowych przez ChatGPT
-
-split-text/
+```
+split-text
 ├── README.md
 ├── reset_input.sh
 ├── split_text.py
 └── input/
     ├── text.txt
-    └── text_chunks/
+	└── text_chunks
+```
+Pliki:
+•	reset_input.sh: Skrypt Bash resetujący folder input/.
+•	split_text.py: Główny program do podziału plików tekstowych na pakiety.
+•	input/: Folder, w którym znajdują się pliki wejściowe i gdzie zapisywane są wyniki.
 
-Pliki
+Instalacja:
 
-	•	reset_input.sh: Skrypt Bash resetujący folder input/.
-	•	split_text.py: Główny program do podziału plików tekstowych na pakiety.
-	•	input/: Folder, w którym znajdują się pliki wejściowe i gdzie zapisywane są wyniki.
+1.	Klonuj repozytorium:
 
-Instalacja
-
-	1.	Klonuj repozytorium:
-
+```bash
 git clone https://github.com/your-username/split-text.git
-cd split-text
+```
 
 Uruchamianie programu
 
@@ -65,5 +65,3 @@ Wszystkie związane z Docker pliki i instrukcje są dostępne na pobocznej gał�
 git checkout docker
 
 Na gałęzi docker znajdziesz Dockerfile oraz instrukcje do uruchamiania programu w kontenerze.
-
-Przykład użycia
